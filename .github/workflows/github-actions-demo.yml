@@ -2,7 +2,8 @@ name: github-actions-demo
 run-name: ${{ github.actor }} is testing out GitHub Actions
 on: [push]
 jobs:
- Test-github-actions:
-  runs-on: ubuntu-latest
-  steps:
-   - run: phyton --version
+  Test-github-actions:
+    runs-on: ubuntu-latest
+    steps:
+      - run: phyton --version
+
