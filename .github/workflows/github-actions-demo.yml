@@ -5,5 +5,5 @@ jobs:
   Test-github-actions:
     runs-on: ubuntu-latest
     steps:
-      - run: phyton --version
+      - run: python --version
 
